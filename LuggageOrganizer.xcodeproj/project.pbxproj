@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70F6DC5A1F76AF2C00A736CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F6DC591F76AF2C00A736CF /* AppDelegate.swift */; };
+		70F6DC5C1F76AF2C00A736CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F6DC5B1F76AF2C00A736CF /* ViewController.swift */; };
+		70F6DC5F1F76AF2C00A736CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70F6DC5D1F76AF2C00A736CF /* Main.storyboard */; };
+		70F6DC611F76AF2C00A736CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70F6DC601F76AF2C00A736CF /* Assets.xcassets */; };
+		70F6DC641F76AF2C00A736CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70F6DC621F76AF2C00A736CF /* LaunchScreen.storyboard */; };
+		70F6DC6F1F76AF2C00A736CF /* LuggageOrganizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F6DC6E1F76AF2C00A736CF /* LuggageOrganizerTests.swift */; };
+		70F6DC7A1F76AF2C00A736CF /* LuggageOrganizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F6DC791F76AF2C00A736CF /* LuggageOrganizerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70F6DC6B1F76AF2C00A736CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70F6DC4E1F76AF2C00A736CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70F6DC551F76AF2C00A736CF;
+			remoteInfo = LuggageOrganizer;
+		};
+		70F6DC761F76AF2C00A736CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70F6DC4E1F76AF2C00A736CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70F6DC551F76AF2C00A736CF;
+			remoteInfo = LuggageOrganizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70F6DC561F76AF2C00A736CF /* LuggageOrganizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuggageOrganizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F6DC591F76AF2C00A736CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70F6DC5B1F76AF2C00A736CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70F6DC5E1F76AF2C00A736CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70F6DC601F76AF2C00A736CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70F6DC631F76AF2C00A736CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70F6DC651F76AF2C00A736CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70F6DC6A1F76AF2C00A736CF /* LuggageOrganizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuggageOrganizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F6DC6E1F76AF2C00A736CF /* LuggageOrganizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuggageOrganizerTests.swift; sourceTree = "<group>"; };
+		70F6DC701F76AF2C00A736CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70F6DC751F76AF2C00A736CF /* LuggageOrganizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuggageOrganizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F6DC791F76AF2C00A736CF /* LuggageOrganizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuggageOrganizerUITests.swift; sourceTree = "<group>"; };
+		70F6DC7B1F76AF2C00A736CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70F6DC531F76AF2C00A736CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F6DC671F76AF2C00A736CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F6DC721F76AF2C00A736CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70F6DC4D1F76AF2C00A736CF = {
+			isa = PBXGroup;
+			children = (
+				70F6DC581F76AF2C00A736CF /* LuggageOrganizer */,
+				70F6DC6D1F76AF2C00A736CF /* LuggageOrganizerTests */,
+				70F6DC781F76AF2C00A736CF /* LuggageOrganizerUITests */,
+				70F6DC571F76AF2C00A736CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70F6DC571F76AF2C00A736CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70F6DC561F76AF2C00A736CF /* LuggageOrganizer.app */,
+				70F6DC6A1F76AF2C00A736CF /* LuggageOrganizerTests.xctest */,
+				70F6DC751F76AF2C00A736CF /* LuggageOrganizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70F6DC581F76AF2C00A736CF /* LuggageOrganizer */ = {
+			isa = PBXGroup;
+			children = (
+				70F6DC591F76AF2C00A736CF /* AppDelegate.swift */,
+				70F6DC5B1F76AF2C00A736CF /* ViewController.swift */,
+				70F6DC5D1F76AF2C00A736CF /* Main.storyboard */,
+				70F6DC601F76AF2C00A736CF /* Assets.xcassets */,
+				70F6DC621F76AF2C00A736CF /* LaunchScreen.storyboard */,
+				70F6DC651F76AF2C00A736CF /* Info.plist */,
+			);
+			path = LuggageOrganizer;
+			sourceTree = "<group>";
+		};
+		70F6DC6D1F76AF2C00A736CF /* LuggageOrganizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				70F6DC6E1F76AF2C00A736CF /* LuggageOrganizerTests.swift */,
+				70F6DC701F76AF2C00A736CF /* Info.plist */,
+			);
+			path = LuggageOrganizerTests;
+			sourceTree = "<group>";
+		};
+		70F6DC781F76AF2C00A736CF /* LuggageOrganizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				70F6DC791F76AF2C00A736CF /* LuggageOrganizerUITests.swift */,
+				70F6DC7B1F76AF2C00A736CF /* Info.plist */,
+			);
+			path = LuggageOrganizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70F6DC551F76AF2C00A736CF /* LuggageOrganizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70F6DC7E1F76AF2C00A736CF /* Build configuration list for PBXNativeTarget "LuggageOrganizer" */;
+			buildPhases = (
+				70F6DC521F76AF2C00A736CF /* Sources */,
+				70F6DC531F76AF2C00A736CF /* Frameworks */,
+				70F6DC541F76AF2C00A736CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuggageOrganizer;
+			productName = LuggageOrganizer;
+			productReference = 70F6DC561F76AF2C00A736CF /* LuggageOrganizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70F6DC691F76AF2C00A736CF /* LuggageOrganizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70F6DC811F76AF2C00A736CF /* Build configuration list for PBXNativeTarget "LuggageOrganizerTests" */;
+			buildPhases = (
+				70F6DC661F76AF2C00A736CF /* Sources */,
+				70F6DC671F76AF2C00A736CF /* Frameworks */,
+				70F6DC681F76AF2C00A736CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70F6DC6C1F76AF2C00A736CF /* PBXTargetDependency */,
+			);
+			name = LuggageOrganizerTests;
+			productName = LuggageOrganizerTests;
+			productReference = 70F6DC6A1F76AF2C00A736CF /* LuggageOrganizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70F6DC741F76AF2C00A736CF /* LuggageOrganizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70F6DC841F76AF2C00A736CF /* Build configuration list for PBXNativeTarget "LuggageOrganizerUITests" */;
+			buildPhases = (
+				70F6DC711F76AF2C00A736CF /* Sources */,
+				70F6DC721F76AF2C00A736CF /* Frameworks */,
+				70F6DC731F76AF2C00A736CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70F6DC771F76AF2C00A736CF /* PBXTargetDependency */,
+			);
+			name = LuggageOrganizerUITests;
+			productName = LuggageOrganizerUITests;
+			productReference = 70F6DC751F76AF2C00A736CF /* LuggageOrganizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70F6DC4E1F76AF2C00A736CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Brandon Cornel";
+				TargetAttributes = {
+					70F6DC551F76AF2C00A736CF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					70F6DC691F76AF2C00A736CF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 70F6DC551F76AF2C00A736CF;
+					};
+					70F6DC741F76AF2C00A736CF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 70F6DC551F76AF2C00A736CF;
+					};
+				};
+			};
+			buildConfigurationList = 70F6DC511F76AF2C00A736CF /* Build configuration list for PBXProject "LuggageOrganizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70F6DC4D1F76AF2C00A736CF;
+			productRefGroup = 70F6DC571F76AF2C00A736CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70F6DC551F76AF2C00A736CF /* LuggageOrganizer */,
+				70F6DC691F76AF2C00A736CF /* LuggageOrganizerTests */,
+				70F6DC741F76AF2C00A736CF /* LuggageOrganizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70F6DC541F76AF2C00A736CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F6DC641F76AF2C00A736CF /* LaunchScreen.storyboard in Resources */,
+				70F6DC611F76AF2C00A736CF /* Assets.xcassets in Resources */,
+				70F6DC5F1F76AF2C00A736CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F6DC681F76AF2C00A736CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F6DC731F76AF2C00A736CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70F6DC521F76AF2C00A736CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F6DC5C1F76AF2C00A736CF /* ViewController.swift in Sources */,
+				70F6DC5A1F76AF2C00A736CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F6DC661F76AF2C00A736CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F6DC6F1F76AF2C00A736CF /* LuggageOrganizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F6DC711F76AF2C00A736CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F6DC7A1F76AF2C00A736CF /* LuggageOrganizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70F6DC6C1F76AF2C00A736CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70F6DC551F76AF2C00A736CF /* LuggageOrganizer */;
+			targetProxy = 70F6DC6B1F76AF2C00A736CF /* PBXContainerItemProxy */;
+		};
+		70F6DC771F76AF2C00A736CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70F6DC551F76AF2C00A736CF /* LuggageOrganizer */;
+			targetProxy = 70F6DC761F76AF2C00A736CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70F6DC5D1F76AF2C00A736CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70F6DC5E1F76AF2C00A736CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70F6DC621F76AF2C00A736CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70F6DC631F76AF2C00A736CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70F6DC7C1F76AF2C00A736CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70F6DC7D1F76AF2C00A736CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70F6DC7F1F76AF2C00A736CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LuggageOrganizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = corno.LuggageOrganizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		70F6DC801F76AF2C00A736CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LuggageOrganizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = corno.LuggageOrganizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		70F6DC821F76AF2C00A736CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LuggageOrganizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = corno.LuggageOrganizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuggageOrganizer.app/LuggageOrganizer";
+			};
+			name = Debug;
+		};
+		70F6DC831F76AF2C00A736CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LuggageOrganizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = corno.LuggageOrganizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuggageOrganizer.app/LuggageOrganizer";
+			};
+			name = Release;
+		};
+		70F6DC851F76AF2C00A736CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LuggageOrganizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = corno.LuggageOrganizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LuggageOrganizer;
+			};
+			name = Debug;
+		};
+		70F6DC861F76AF2C00A736CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LuggageOrganizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = corno.LuggageOrganizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LuggageOrganizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70F6DC511F76AF2C00A736CF /* Build configuration list for PBXProject "LuggageOrganizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F6DC7C1F76AF2C00A736CF /* Debug */,
+				70F6DC7D1F76AF2C00A736CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70F6DC7E1F76AF2C00A736CF /* Build configuration list for PBXNativeTarget "LuggageOrganizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F6DC7F1F76AF2C00A736CF /* Debug */,
+				70F6DC801F76AF2C00A736CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70F6DC811F76AF2C00A736CF /* Build configuration list for PBXNativeTarget "LuggageOrganizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F6DC821F76AF2C00A736CF /* Debug */,
+				70F6DC831F76AF2C00A736CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70F6DC841F76AF2C00A736CF /* Build configuration list for PBXNativeTarget "LuggageOrganizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F6DC851F76AF2C00A736CF /* Debug */,
+				70F6DC861F76AF2C00A736CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70F6DC4E1F76AF2C00A736CF /* Project object */;
+}
