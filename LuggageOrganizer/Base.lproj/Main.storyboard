@@ -51,6 +51,7 @@
                                     <outlet property="luggageDescriptionTextView" destination="56z-iU-r2b" id="cNC-Dc-zgZ"/>
                                     <outlet property="luggageNameLabel" destination="9Af-5H-D4c" id="Sdf-nW-YFa"/>
                                     <outlet property="luggagePhotoImageView" destination="unI-D5-Qxm" id="gYW-hN-zyf"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="LuggageShowDetail" id="LcN-lY-MFv"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -116,7 +117,11 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="New Luggage" id="v6G-0R-j72">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="Srz-O5-VhL"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="Srz-O5-VhL">
+                            <connections>
+                                <action selector="cancelLuggage:" destination="BYZ-38-t0r" id="6ed-6u-Yvh"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="pz9-wx-sZu">
                             <connections>
                                 <segue destination="yVw-mP-SG7" kind="unwind" unwindAction="unwindToLuggageListWithSender:" id="TSZ-TB-udJ"/>
@@ -174,10 +179,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hgu-Wx-4kR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1293.5999999999999" y="106.59670164917542"/>
+            <point key="canvasLocation" x="1329" y="652"/>
         </scene>
     </scenes>
     <resources>
         <image name="placeholder" width="353" height="198"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="LcN-lY-MFv"/>
+    </inferredMetricsTieBreakers>
 </document>

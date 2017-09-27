@@ -33,6 +33,9 @@ class LuggageViewController: UIViewController, UITextFieldDelegate,UITextViewDel
         
     }
     
+    @IBAction func cancelLuggage(_ sender: UIBarButtonItem) {
+        dismiss(animated:true, completion: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         luggageNameTextField.delegate = self
