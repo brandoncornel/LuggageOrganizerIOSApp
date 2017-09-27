@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70C579BD1F79E90F00507404 /* Luggage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C579BC1F79E90F00507404 /* Luggage.swift */; };
+		70C579BF1F79EB4200507404 /* LuggageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C579BE1F79EB4200507404 /* LuggageTableViewCell.swift */; };
+		70C579C11F79F00F00507404 /* LuggageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C579C01F79F00F00507404 /* LuggageTableViewController.swift */; };
 		70F6DC5A1F76AF2C00A736CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F6DC591F76AF2C00A736CF /* AppDelegate.swift */; };
-		70F6DC5C1F76AF2C00A736CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F6DC5B1F76AF2C00A736CF /* ViewController.swift */; };
+		70F6DC5C1F76AF2C00A736CF /* LuggageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F6DC5B1F76AF2C00A736CF /* LuggageViewController.swift */; };
 		70F6DC5F1F76AF2C00A736CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70F6DC5D1F76AF2C00A736CF /* Main.storyboard */; };
 		70F6DC611F76AF2C00A736CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70F6DC601F76AF2C00A736CF /* Assets.xcassets */; };
 		70F6DC641F76AF2C00A736CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70F6DC621F76AF2C00A736CF /* LaunchScreen.storyboard */; };
@@ -34,9 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		70C579BC1F79E90F00507404 /* Luggage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Luggage.swift; sourceTree = "<group>"; };
+		70C579BE1F79EB4200507404 /* LuggageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LuggageTableViewCell.swift; sourceTree = "<group>"; };
+		70C579C01F79F00F00507404 /* LuggageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LuggageTableViewController.swift; sourceTree = "<group>"; };
 		70F6DC561F76AF2C00A736CF /* LuggageOrganizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuggageOrganizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70F6DC591F76AF2C00A736CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		70F6DC5B1F76AF2C00A736CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70F6DC5B1F76AF2C00A736CF /* LuggageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuggageViewController.swift; sourceTree = "<group>"; };
 		70F6DC5E1F76AF2C00A736CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70F6DC601F76AF2C00A736CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70F6DC631F76AF2C00A736CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,11 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				70F6DC591F76AF2C00A736CF /* AppDelegate.swift */,
-				70F6DC5B1F76AF2C00A736CF /* ViewController.swift */,
+				70F6DC5B1F76AF2C00A736CF /* LuggageViewController.swift */,
+				70C579BC1F79E90F00507404 /* Luggage.swift */,
 				70F6DC5D1F76AF2C00A736CF /* Main.storyboard */,
+				70C579BE1F79EB4200507404 /* LuggageTableViewCell.swift */,
 				70F6DC601F76AF2C00A736CF /* Assets.xcassets */,
 				70F6DC621F76AF2C00A736CF /* LaunchScreen.storyboard */,
 				70F6DC651F76AF2C00A736CF /* Info.plist */,
+				70C579C01F79F00F00507404 /* LuggageTableViewController.swift */,
 			);
 			path = LuggageOrganizer;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70F6DC5C1F76AF2C00A736CF /* ViewController.swift in Sources */,
+				70C579C11F79F00F00507404 /* LuggageTableViewController.swift in Sources */,
+				70C579BF1F79EB4200507404 /* LuggageTableViewCell.swift in Sources */,
+				70F6DC5C1F76AF2C00A736CF /* LuggageViewController.swift in Sources */,
 				70F6DC5A1F76AF2C00A736CF /* AppDelegate.swift in Sources */,
+				70C579BD1F79E90F00507404 /* Luggage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +517,7 @@
 				70F6DC801F76AF2C00A736CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70F6DC811F76AF2C00A736CF /* Build configuration list for PBXNativeTarget "LuggageOrganizerTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				70F6DC831F76AF2C00A736CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70F6DC841F76AF2C00A736CF /* Build configuration list for PBXNativeTarget "LuggageOrganizerUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				70F6DC861F76AF2C00A736CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
