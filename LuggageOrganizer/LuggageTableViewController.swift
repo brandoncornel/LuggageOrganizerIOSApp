@@ -79,6 +79,14 @@ class LuggageTableViewController: UITableViewController {
         return cell
     }
     
+    //MARK: Actions
+    @IBAction func unwindToLuggageList(sender: UIStoryboardSegue){
+        if let sourceViewController = sender.source as? LuggageViewController, let luggage = sourceViewController.luggage {
+            let newIndexPath = IndexPath(row: luggages.count, section : 0)
+            luggages.append(luggage)
+            tableView.insertRows(at: [newIndexPath], with: .automatic)
+        }
+    }
 
     /*
     // Override to support conditional editing of the table view.

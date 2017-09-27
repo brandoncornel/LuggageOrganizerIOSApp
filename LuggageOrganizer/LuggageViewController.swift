@@ -19,6 +19,19 @@ class LuggageViewController: UIViewController, UITextFieldDelegate,UITextViewDel
     
     
     //MARK:Navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        super.prepare(for: segue, sender: sender)
+        guard let button = sender as? UIBarButtonItem, button === luggageSaveButton else{
+            os_log("The save button was not pressed, cancelled", log: OSLog.default, type: .debug)
+            return
+        }
+        let name = luggageNameTextField.text
+        let photo = luggageImage.image
+        let description = luggageDescriptionTextField.text
+        
+        luggage = Luggage(name: name!, photo: photo, description: description!)
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

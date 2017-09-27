@@ -117,7 +117,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="New Luggage" id="v6G-0R-j72">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="Srz-O5-VhL"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="pz9-wx-sZu"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="pz9-wx-sZu">
+                            <connections>
+                                <segue destination="yVw-mP-SG7" kind="unwind" unwindAction="unwindToLuggageListWithSender:" id="TSZ-TB-udJ"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="luggageDescriptionTextField" destination="nJS-3V-CVN" id="mSj-ki-frz"/>
@@ -127,6 +131,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="yVw-mP-SG7" userLabel="Exit" sceneMemberID="exit"/>
                 <tapGestureRecognizer id="5Te-Ma-dUo">
                     <connections>
                         <action selector="luggageImageSelection:" destination="BYZ-38-t0r" id="lQ4-rq-3uJ"/>
