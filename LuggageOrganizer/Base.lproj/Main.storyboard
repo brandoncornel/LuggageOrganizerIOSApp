@@ -63,7 +63,7 @@
                     <navigationItem key="navigationItem" title="Your Luggages" id="uEW-9t-8XE">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Keb-dg-Ya9">
                             <connections>
-                                <segue destination="QO4-lP-sss" kind="presentation" identifier="AddItem" id="oTP-Kh-6SA"/>
+                                <segue destination="QO4-lP-sss" kind="presentation" identifier="AddLuggage" id="oTP-Kh-6SA"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

@@ -29,17 +29,31 @@ class LuggageViewController: UIViewController, UITextFieldDelegate,UITextViewDel
         let photo = luggageImage.image
         let description = luggageDescriptionTextField.text
         
-        luggage = Luggage(name: name!, photo: photo, description: description!)
+        luggage = Luggage(name: name!, photo: photo, detailedDescription: description!)
         
     }
     
     @IBAction func cancelLuggage(_ sender: UIBarButtonItem) {
-        dismiss(animated:true, completion: nil)
+        let isPresetingInAddLuggageMode = presentingViewController is UINavigationController
+        if isPresetingInAddLuggageMode{
+            dismiss(animated:true, completion: nil)
+        }else if let ownNavigationController = navigationController{
+            ownNavigationController.popViewController(animated: true)
+        }else{
+            fatalError("The LuggageViewController is not inside a navigation controller")
+        }
     }
     override func viewDidLoad() {
         super.viewDidLoad()
         luggageNameTextField.delegate = self
         luggageDescriptionTextField.delegate = self
+        
+        if let luggage = luggage{
+            navigationItem.title = luggage.name
+            luggageDescriptionTextField.text = luggage.detailedDescription
+            luggageImage.image = luggage.photo
+            luggageNameTextField.text = luggage.name
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
 
