@@ -9,7 +9,10 @@
 import os.log
 import UIKit
 
-class LuggageViewController: UIViewController, UITextFieldDelegate,UITextViewDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
+class LuggageViewController: UIViewController, UITextFieldDelegate,UITextViewDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate, UITableViewDataSource, UITableViewDelegate{
+    
+    
+    
     
     //MARK: Properties
     @IBOutlet weak var luggageNameTextField: UITextField!
@@ -17,6 +20,28 @@ class LuggageViewController: UIViewController, UITextFieldDelegate,UITextViewDel
     @IBOutlet weak var luggageImage: UIImageView!
     @IBOutlet weak var luggageSaveButton: UIBarButtonItem!
     
+    func numberOfSections(in tableView: UITableView) -> Int {
+        // #warning Incomplete implementation, return the number of sections
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        // #warning Incomplete implementation, return the number of rows
+        return 3
+    }
+    
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cellIdentifier = "LuggageTableViewCell"
+        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? LuggageTableViewCell  else {
+            fatalError("The dequeued cell is not an instance of LuggageTableViewCell.")
+        }
+        
+        
+        
+        return cell
+    }
     
     //MARK:Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
